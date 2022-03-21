@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(83, 83, 83);
+}
+h1,h2,h3,h4,h5,h6 {
+  color: rgb(26 59 116);
+  font-weight: 600;
+}
+.imgfluid {
+  width: 100%;
+  margin: auto;
+}
+.card {
+  height: 100%;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 5px -2px rgb(0 0 0 / 12%);
+  box-shadow: 5px 5px 5px -2px rgb(0 0 0 / 12%);
+}
+.center {
+  margin-top: 10em;
+}
+.btn-primary {
+  color: #294ac8;
+  background-color: #eef3ff;
+  border-color: #eef3ff;
+}
+.btn-primary:hover {
+  color: #ffff;
+  background-color: #294ac8;
+  border-color: #294ac8;
+}
+footer {
+  background-color: #eef3ff;
+  padding: 5em 0;
+  font-size: 0.8em;
+}
+.blue {
+  color: #294ac8!important;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 1em 0;
+  padding: 0;
+}
+.txt-center {
+  text-align: center;
+}
+.card-header {
+  background-color: rgb(255 255 255 / 3%);
+}
+.btn-link {
+  font-weight: 600;
+  color: #193b74;
+  text-decoration: none;
+}
+.title {
+  font-size: 3em;
+}
+.list-horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.list-horizontal li {
+  float: left;
+  margin-right: 3em;
+}
+.banner-info {
+  padding: 1em;
+  width: 80%;
+  background-color: #ffff;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 5px -2px rgb(0 0 0 / 12%);
+  box-shadow: 5px 5px 5px -2px rgb(0 0 0 / 12%);
+}
+.banner-info .btn-primary{
+  width: 80%;
+  margin-top: 0.2em;
+  height: 3em;
+  color: #ffff;
+  background-color: #294ac8;
+  border-color: #294ac8;
+}
+.relative {
+  position: relative;
+}
+.banner {
+  position: absolute;
+  width: 100%;
+  bottom: 4em;
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
